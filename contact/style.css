@@ -1,0 +1,95 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-pre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input{
+    margin: 10px;
+    width: 40%;
+}
+
+input, select, textarea{
+    background: var(--border-color);
+    outline: none;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin: 5px 0;
+    color: var(--font-dark);
+    font-family: Quicksand;
+    width: 100%;
+    font-weight: 500;
+}
+
+::placeholder{
+    color: var(--font-dark);
+    font-family: Quicksand;
+    opacity: 0.6;
+}
+
+option{
+    color: var(--font-dark);
+    opacity: 0.5;
+    width: 100%;
+    background: var(--bg-light);
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+
+.message{
+    margin: 10px;
+}
+
+.submit{
+    margin: 10px;
+    background: var(--bg-dark);
+    border: none;
+    outline: none;
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    font-weight: 600;
+    font-family: Quicksand;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--font-light);
+}
+
+.submit i{
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 668px) {
+    .form-pre{
+        flex-direction: column;
+    }
+
+    .message{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    textarea{
+        width: 40%;
+    }
+}

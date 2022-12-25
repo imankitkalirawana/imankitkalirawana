@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: cover;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    background: #2f2c2c;
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 100px auto;
+}
+
+.container .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container .welcome-color-1 {
+    color: #4285f4;
+}
+
+.container .welcome-color-2 {
+    color: #db4437;
+}
+
+.container .welcome-color-4 {
+    color: #4285f4;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-up,
+.body-middle,
+.body-down {
+    margin-top: 30px;
+}
+
+.body-heading {
+    font-weight: 800;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.head-image {
+    width: 60px;
+    border-radius: 50%;
+    transform: scale(1.5);
+    transition: 0.3s ease;
+
+}
+
+.body-body {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
+    justify-items: center;
+    grid-gap: 1rem;
+}
+
+.card-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 100px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.card-up:hover {
+    /* transform: translateY(-10px); */
+    transform: scale(1.03);
+}
+
+.card-up i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.card-down {
+    margin-top: 10px;
+}
+
+.card-head {
+    font-weight: 600;
+    font-family: Raleway;
+}
+
+
+
+.card1 .card-up {
+    background: #535353;
+}
+
+.card2 .card-up {
+    background: #ea4335;
+}
+
+.card3 .card-up {
+    background: #0088cc;
+}
+
+.card4 .card-up {
+    background: #1da1f2;
+}
+
+.card5 .card-up {
+    background: #6e5494;
+}
+
+.card6 .card-up {
+    background: #00a0dc;
+}
+
+.card06 .card-up {
+    background: #a82723;
+}
+
+.card7 .card-up {
+    background: #f48024;
+}
+
+.card8 .card-up {
+    background: #9146ff;
+}
+
+.card9 .card-up {
+    background: #7289da;
+}
+
+.card10 .card-up {
+    background: #ff4500;
+}
+
+.card11 .card-up {
+    background: #003087;
+}
+
+.card12 .card-up {
+    background: #3eb991;
+}
+
+.card13 .card-up {
+    background: #0C61DB;
+}
+
+.card14 .card-up {
+    background: #fca326;
+}
+
+.card15 .card-up {
+    background: #DB4437;
+}
+
+.card16 .card-up {
+    background: #f082ac;
+}
+
+.card17 .card-up {
+    background: #000;
+}
+
+.card18 .card-up {
+    background: #000;
+}
+
+.card19 .card-up {
+    background: #003ecb;
+}
+
+.card20 .card-up {
+    background: #e80029;
+}
+
+.card21 .card-up {
+    background: #000;
+}
+
+.card22 .card-up {
+    background: #2ec866;
+}
+
+.card23 .card-up {
+    background: #05cc46;
+}
+
+
+
+.card-body {
+    color: #787878;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 5px 0;
+    transition: 0.3s ease;
+}
+
+.card-body:hover {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: grid;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn .showbtn {
+    font-size: 15px;
+    color: #1b1b1b;
+    background: #fff;
+    font-family: Poppins;
+    border: 2px solid #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.footer {
+    background: #1b1b1b;
+    color: #fff;
+    padding: 10px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+}
+
+.watermark {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    .heading {
+        flex-direction: column-reverse;
+    }
+
+    .head-image {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 530px) {
+    .btn .showbtn:hover {
+        background: transparent;
+        color: #fff;
+    }
+}
+
+@media (max-width: 530px) {
+    .head-welcome {
+        font-weight: 16px;
+        text-align: center;
+    }
+
+    .card-body:hover {
+        color: inherit;
+    }
+
+    .card-up:hover {
+        transform: inherit;
+    }
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imankitkalirawana</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.Fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coswise/hicon-css@latest/web-fonts/hicon.min.css">
+    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="icon" href="/assets/favicon.ico" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/favicon.ico">
+</head>
+
+<body>
+    <div class="loader-main" id="loader">
+        <div class="loading">
+            <img src="/assets/logo.jpg" alt="miracle happens">
+            <div class="loading-bar">
+                <span class="loading-bar-1"></span>
+            </div>
+        </div>
+    </div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+        <body onload="myFunction()" style="margin:0;">
+            <div class="container">
+                <header>
+                    <div class="head">
+                        <div class="head_left">
+                            <div class="head_left_toggle" onclick="navbar_toggle()"><i class="fa-regular fa-bars"></i>
+                            </div>
+                            <div class="head_left_logo">imankit<span class="head_left_logo-2">kalirawana</span></div>
+                        </div>
+                        <form class="head_center" id="search-form" action="search.php" method="post" name="form">
+                            <input accesskey="g" title="Search any article..." class="center_search-input" type="search"
+                                placeholder="Search..." type="text" name="search[keyword]" autocomplete="off">
+                            <button class="center_search-btn" id="btn" type="submit" name="submit"><i
+                                    class="h h-lens"></i></button>
+                        </form>
+                        <div class="head_right">
+                            <div class="head_right_menu-btn" id="head_right_menu-btn" onclick="dropdown_head()"><i
+                                    id="xmark" class="fa-regular fa-ellipsis-vertical"></i></div>
+                            <div class="head_dropdown" id="head_dropdown">
+                                <div class="head_dropdown-1">
+                                    <a href="#" class="head_dropdown_item"><span class="head_dropdown_item-title"><i
+                                                class="fa-light fa-user-lock"></i>Your data in
+                                            imankitkalirawana</span></a>
+                                </div>
+                                <hr>
+                                <div class="head_dropdown-2">
+                                    <a href="#" class="head_dropdown_item"><span class="head_dropdown_item-title"><i
+                                                class="fa-light fa-gear"></i>Settings</span><i
+                                            class="fa-light fa-angle-right"></i></a>
+                                    <label class="theme-switch head_dropdown_item" for="checkbox">
+                                        <span class="head_dropdown_item-title"><i
+                                                class="fa-light fa-eclipse"></i>Appearance:
+                                            <span id="appearance">Dark theme</span>
+                                        </span>
+                                        <input type="checkbox" class="checkbox" id="checkbox" />
+                                        <i id="sun_moon" class="fa-light fa-moon"></i>
+                                    </label>
+                                    <a href="#" class="head_dropdown_item"><span class="head_dropdown_item-title"><i
+                                                class="fa-light fa-globe"></i>Location: India</span><i
+                                            class="fa-light fa-angle-right"></i></a>
+                                </div>
+                                <hr>
+                                <div class="head_dropdown-3">
+                                    <a href="#" class="head_dropdown_item"><span class="head_dropdown_item-title"><i
+                                                class="fa-light fa-circle-question"></i>Help</span></a>
+                                    <a href="#" class="head_dropdown_item"><span class="head_dropdown_item-title"><i
+                                                class="fa-light fa-message-exclamation"></i>Send Feedback</span></a>
+                                </div>
+                            </div>
+                            <div class="head_right_login"><a href="/blogadmin/index.php" class="head_right_login-btn"><i
+                                        class="h h-user"></i><span>Sign in</span></a></div>
+                        </div>
+                    </div>
+                </header>
+                <div class="main">
+                    <nav>
+                        <div class="navbar_logo">
+                            <div class="head_left_toggle" onclick="navbar_toggle()"><i class="fa-regular fa-bars"></i>
+                            </div>
+                            <a href="./" class="head_left_logo">imankit<span
+                                    class="head_left_logo-2">kalirawana</span></a>
+                        </div>
+                        <div class="navbar navbar-toggle" id="navbar">
+                            <div class="navbar-1">
+                                <a id="Home_navbar_active" onclick="AllAct()"
+                                    class="navbar_item navbar_item_1 active"><i
+                                        class="fa-light fa-house-blank"></i><span
+                                        class="navbar_item-title">Home</span></a>
+                                <a id="Popular_navbar_active" onclick="PopularAct()"
+                                    class="navbar_item navbar_item_1"><i class="fa-light fa-fire-flame-curved"></i><span
+                                        class="navbar_item-title">Popular</span></a>
+                                <a id="Latest_navbar_active" onclick="LatestAct()" class="navbar_item navbar_item_1"><i
+                                        class="fa-light fa-mug-hot"></i><span
+                                        class="navbar_item-title">Latest</span></a>
+                                <a id="Editor_navbar_active" onclick="EditorAct()" class="navbar_item navbar_item_1"><i
+                                        class="fa-light fa-star"></i><span class="navbar_item-title">Editor
+                                        Choice</span></a>
+
+                            </div>
+                            <hr>
+                            <div class="navbar-2">
+                                <div class="navbar_login-heading">
+                                    Sign in to write blogs, articles, and comments.
+                                </div>
+                                <a href="/blogadmin/index.php" class="navbar_login"><i class="h h-user"></i>Sign in</a>
+                            </div>
+                            <hr>
+                            <div class="navbar-3">
+                                <!-- <h3 class="navbar_heading">More from us</h3> -->
+                                <a href="/links" class="navbar_item"><i
+                                        class="fa-light fa-link"></i><span class="navbar_item-title">Links</span></a>
+                                <a href="#" class="navbar_item"><i class="fa-light fa-file"></i><span
+                                        class="navbar_item-title">Docs</span></a>
+                                <a href="#" class="navbar_item"><i class="fa-light fa-code"></i><span
+                                        class="navbar_item-title">Developers</span></a>
+                                <a href="#" class="navbar_item"><i class="fa-light fa-upload"></i><span
+                                        class="navbar_item-title">Contribute</span></a>
+                            </div>
+                            <hr>
+                            <div class="navbar-4">
+                                <a href="#" class="navbar_item"><i class="fa-light fa-gear"></i><span
+                                        class="navbar_item-title">Settings</span></a>
+                                <a href="/contact" class="navbar_item"><i class="fa-light fa-flag"></i><span
+                                        class="navbar_item-title">Report</span></a>
+                                <a href="#" class="navbar_item"><i class="fa-light fa-circle-question"></i><span
+                                        class="navbar_item-title">Help</span></a>
+                                <a href="#" class="navbar_item"><i class="fa-light fa-message-exclamation"></i><span
+                                        class="navbar_item-title">Send Feedback</span></a>
+                            </div>
+                            <hr>
+                            <div class="navbar-5">
+                                <a href="/about" class="navbar_item">About</a>
+                                <a href="#" class="navbar_item">Privacy Policy</a>
+                                <a href="/contact" class="navbar_item">Contact us</a>
+                                <a href="/contact" class="navbar_item">Join us</a>
+                                <a href="#" class="navbar_item">Copyright</a>
+                            </div>
+                            <hr>
+                        </div>
+                    </nav>
+                    <div class="nav_bottom">
+                        <div class="nav">
+                            <a id="Home_nav_active" onclick="AllAct()" class="nav_item active"><i
+                                    class="fa-light fa-house-blank"></i><span class="nav_item-title">Home</span></a>
+                            <a id="Popular_nav_active" onclick="PopularAct()" class="nav_item"><i
+                                    class="fa-light fa-fire-flame-curved"></i><span
+                                    class="nav_item-title">Popular</span></a>
+                            <a id="Latest_nav_active" onclick="LatestAct()" class="nav_item"><i
+                                    class="fa-light fa-mug-hot"></i><span class="nav_item-title">Latest</span></a>
+                            <a id="Editor_nav_active" onclick="EditorAct()" class="nav_item"><i
+                                    class="fa-light fa-star"></i><span class="nav_item-title">Editor
+                                    Choice</span></a>
+                        </div>
+                    </div>
+
+
+                    <section class="main_content" id="main_content">
+                        <div class="main_content_category">
+                            <a href="#" class="main_content-category">
+                                All
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Technology
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Books
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Popular
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                            <a href="#" class="main_content-category">
+                                Latest
+                            </a>
+                        </div>
+
+                        <div class="main_content_article">
+                            <div id="popular_posts" class="popular-posts">
+                                <div class="main_content_article-heading">
+                                    <i class="fa-regular fa-fire-flame-curved"></i> Popular of all time
+                                </div>
+                                <div class="main_content_article-popular">
+                                    <?php getpopularposts("page_hits"); ?>
+                                </div>
+                            </div>
+
+                            <div id="latest_posts" class="latest-posts">
+                                <div class="main_content_article-heading">
+                                    <i class="fa-regular fa-mug-hot"></i> Latest Pick for you
+                                </div>
+                                <div class="main_content_article-latest">
+                                    <?php getblogridposts("blogs"); ?>
+                                </div>
+                            </div>
+
+                            <div id="editors_posts" class="editors-posts">
+                                <div class="main_content_article-heading">
+                                    <i class="fa-regular fa-star"></i> Explore Editor's Choice
+                                </div>
+                                <div class="main_content_article-editor">
+                                    <?php geteditorschoice("editors_choice"); ?>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </body>
+    </div>
+
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 100);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+
+    <script src="/js/header.js"></script>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
