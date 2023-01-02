@@ -1,4 +1,4 @@
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -8,25 +8,27 @@
     padding: 50px;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.form-pre{
+.form-pre {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.input{
+.input {
     margin: 10px;
     width: 40%;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     background: var(--border-color);
     outline: none;
     border: none;
@@ -39,13 +41,13 @@ input, select, textarea{
     font-weight: 500;
 }
 
-::placeholder{
+::placeholder {
     color: var(--font-dark);
     font-family: Quicksand;
     opacity: 0.6;
 }
 
-option{
+option {
     color: var(--font-dark);
     opacity: 0.5;
     width: 100%;
@@ -56,11 +58,11 @@ option{
 
 }
 
-.message{
+.message {
     margin: 10px;
 }
 
-.submit{
+.submit {
     margin: 10px;
     background: var(--bg-dark);
     border: none;
@@ -75,21 +77,55 @@ option{
     color: var(--font-light);
 }
 
-.submit i{
+.submit i {
     transform: rotate(-45deg);
 }
 
+.sfile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+}
+
+.file-label {
+    background: var(--border-color);
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-bottom: 10px; */
+    color: var(--font-dark);
+}
+
+.file-label:active {
+    outline: 2px solid var(--primary-color);
+}
+
+.file-label:hover {
+    background: var(--secondary-color);
+}
+
+#file-chosen {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
 @media (max-width: 668px) {
-    .form-pre{
+    .form-pre {
         flex-direction: column;
     }
 
-    .message{
+    .message {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    textarea{
+
+    textarea {
         width: 40%;
     }
 }
