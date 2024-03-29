@@ -1,11 +1,11 @@
 <div align="center">
    <h1>
-    Hi there, I'm Jean-Yves <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
+    Hi there, I'm Bhuneshvar <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
    </h1>
    
-   [![Twitter: jycouet](https://img.shields.io/badge/-jycouet-blue?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/jycouet)](https://twitter.com/jycouet)
-   [![Youtube: jycouet](https://img.shields.io/badge/-Jean%20Yves%20Couët-red?style=flat-square&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UC5053FCXP9BVpW7CHpeA2IA)](https://www.youtube.com/channel/UC5053FCXP9BVpW7CHpeA2IA)
-   [![Linkedin: jycouet](https://img.shields.io/badge/-jycouet-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jycouet/)](https://www.linkedin.com/in/jycouet/)
+   [![Twitter: divinelydevs](https://img.shields.io/badge/-divinelydevs-blue?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/divinelydevs)](https://twitter.com/divinelydevs)
+   [![Instagram: divinelydeveloper](https://img.shields.io/badge/-divinelydeveloper-crimson?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/divinelydeveloper)](https://www.instagram.com/divinelydeveloper)
+   [![Linkedin: jycouet](https://img.shields.io/badge/-divinelydeveloper-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jycouet/)](https://www.linkedin.com/in/divinelydeveloper/)
   
 </div>
 
@@ -15,21 +15,20 @@ Come and say hi 👋
 
 ## My main project
 
-[![KitQL](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=dynamic-devocode&theme=dark)](https://github.com/jycouet/kitql)
-[![Houdini](https://github-readme-stats.vercel.app/api/pin/?username=remult&repo=remult&theme=dark)](https://github.com/remult/remult)
-[![Houdini](https://github-readme-stats.vercel.app/api/pin/?username=houdinigraphql&repo=houdini&theme=dark)](https://github.com/houdinigraphql/houdini)
+[![Devocode](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=dynamic-devocode&theme=dark)](https://github.com/imankitkalirawana/dynamic-devocode)
+[![Personal Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=react-portfolio&theme=dark)](https://github.com/imankitkalirawana/react-portfolio)
 
-## Techno
+## Techs
 
-- Database: `#Postgresql`, `#DocumentDb`, `#SQL`, `#NoSQL`
-- Backend: `#Nodejs`, `#GraphQL`, `#Typescript`,`#IEC61499`, `#C#`
-- Frontend: `#SvelteKit`, `#GraphQL`, `#React`, `#Angular`, `#HTML`, `#CSS` _at least a bit 😜_
-- Cloud: `#Render`, `#Heroku`, `#Azure`, `#AWS`
-- Others: `#PPT`, `#Excel`, `#Git`, `#DevOps`, `#SVN`
+- Database: `MongoDB` `MYSQL`
+- Backend: `Nodejs` `PHP` `NextJs` `Python` `Typescript` `Java` `C++`
+- Frontend: `ReactJs` `HTML` `CSS` `JavaScript` `TailwindCSS`
+- Cloud: `AWS`
+- Others: `Redux` `Git` `Canva`
 
 ## Some Stats
-[![GitHub Streak](https://streak-stats.demolab.com?user=jycouet&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=imankitkalirawana&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-![JYC Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jycouet&layout=compact&theme=dark)
+![Bhuneshvar's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imankitkalirawana&layout=compact&theme=dark)
 
-<!-- [![JYC's GitHub stats](https://github-readme-stats.vercel.app/api?username=jycouet&&show_icons=true&theme=dark&count_private=true)](https://github.com/jycouet) -->
+ [![Bhuneshvar's GitHub stats](https://github-readme-stats.vercel.app/api?username=imankitkalirawana&&show_icons=true&theme=dark&count_private=true)](https://github.com/imankitkalirawa) 
