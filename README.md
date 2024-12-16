@@ -27,7 +27,7 @@ Come and say hi 👋
 - Others: `Redux` `Git` `Canva`
 
 ## Some Stats
-[![GitHub Streak](https://streak-stats.demolab.com?user=imankitkalirawana&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=imankitkalirawana)](https://git.io/streak-stats)
 
 ![Bhuneshvar's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imankitkalirawana&layout=compact&theme=dark)
 
