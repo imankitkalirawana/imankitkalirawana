@@ -15,8 +15,8 @@ Come and say hi 👋
 
 ## My main project
 
-[![Devocode](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=dynamic-devocode&theme=dark)](https://github.com/imankitkalirawana/dynamic-devocode)
-[![Personal Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=react-portfolio&theme=dark)](https://github.com/imankitkalirawana/react-portfolio)
+[![The Polyclinic](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=dynamic-devocode&theme=dark)](https://github.com/imankitkalirawana/the-polyclinic)
+[![Personal Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=react-portfolio&theme=dark)](https://github.com/imankitkalirawana/divinelydeveloper-portfolio )
 
 ## Techs
 
@@ -25,6 +25,7 @@ Come and say hi 👋
 - Frontend: `ReactJs` `HTML` `CSS` `JavaScript` `TailwindCSS`
 - Cloud: `AWS`
 - Others: `Redux` `Git` `Canva`
+- UI: `Tailwind` `Shadcn` `Next UI`
 
 ## Some Stats
 [![GitHub Streak](https://streak-stats.demolab.com?user=imankitkalirawana)](https://git.io/streak-stats)
