@@ -17,6 +17,7 @@ Come and say hi 👋
 
 [![The Polyclinic](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=the-polyclinic&theme=dark)](https://github.com/imankitkalirawana/the-polyclinic)
 [![Personal Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=divinelydeveloper-portfolio&theme=dark)](https://github.com/imankitkalirawana/divinelydeveloper-portfolio )
+[![Devocode](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=dynamic-devocode&theme=dark)](https://github.com/imankitkalirawana/dynamic-devocode )
 
 ## Techs
 
