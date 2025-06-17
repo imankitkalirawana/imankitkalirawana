@@ -3,7 +3,7 @@
     Hi there, I'm Bhuneshvar <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
    </h1>
    
-   [![Twitter: divinelydev](https://img.shields.io/badge/-divinelydevs-blue?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/divinelydevs)](https://twitter.com/divinelydevs)
+   [![Twitter: divinelydev](https://img.shields.io/badge/-divinelydevs-blue?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/divinelydevs)](https://twitter.com/divinely_dev)
    [![Instagram: divinelydeveloper](https://img.shields.io/badge/-divinelydeveloper-crimson?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/divinelydeveloper)](https://www.instagram.com/divinelydeveloper)
    [![Linkedin: jycouet](https://img.shields.io/badge/-divinelydeveloper-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jycouet/)](https://www.linkedin.com/in/divinelydeveloper/)
   
