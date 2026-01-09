@@ -22,11 +22,10 @@ Come and say hi 👋
 ## Techs
 
 - Database: `MongoDB` `MYSQL`
-- Backend: `Nodejs` `PHP` `NextJs` `Python` `Typescript` `Java` `C++`
-- Frontend: `ReactJs` `HTML` `CSS` `JavaScript` `TailwindCSS`
-- Cloud: `AWS`
+- Backend: `Nodejs` `NestJs` `PHP` `NextJs` `Python` `Typescript`
+- Frontend: `Next.js` `ReactJs` `Typescript` `TailwindCSS`
+- Cloud: `AWS` `Google Cloud`
 - Others: `Redux` `Git` `Canva`
-- UI: `Tailwind` `Shadcn` `Next UI`
 
 ## Some Stats
 [![GitHub Streak](https://streak-stats.demolab.com?user=imankitkalirawana)](https://git.io/streak-stats)
