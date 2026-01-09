@@ -4,7 +4,7 @@
    </h1>
    
    [![Twitter: divinelydev](https://img.shields.io/badge/-divinelydevs-blue?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/divinelydevs)](https://twitter.com/divinely_dev)
-   [![Instagram: divinelydeveloper](https://img.shields.io/badge/-divinelydeveloper-crimson?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/divinelydeveloper)](https://www.instagram.com/divinelydeveloper)
+   [![Instagram: bhuneshvar](https://img.shields.io/badge/-divinelydeveloper-crimson?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/ankit.kalirawana)](https://www.instagram.com/ankit.kalirawana)
    [![Linkedin: jycouet](https://img.shields.io/badge/-divinelydeveloper-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jycouet/)](https://www.linkedin.com/in/divinelydeveloper/)
   
 </div>
@@ -15,7 +15,7 @@ Come and say hi 👋
 
 ## My main project
 
-[![The Polyclinic](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=the-polyclinic-preview&theme=dark)](https://github.com/imankitkalirawana/the-polyclinic-preview)
+[![The Polyclinic](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=the-polyclinic&theme=dark)](https://github.com/imankitkalirawana/the-polyclinic)
 [![Personal Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=divinelydeveloper-portfolio&theme=dark)](https://github.com/imankitkalirawana/divinelydeveloper-portfolio )
 [![Devocode](https://github-readme-stats.vercel.app/api/pin/?username=imankitkalirawana&repo=dynamic-devocode&theme=dark)](https://github.com/imankitkalirawana/dynamic-devocode )
 
